@@ -15,6 +15,6 @@ exports.getPgById = (req, res) => {
     // console.log('pg by id')
     PgModel.getPgById(req.params.id, (err,pg) => {
         if(err) res.send(err)
-        res.send(pg)
+        res.json(pg)
     })
 }
