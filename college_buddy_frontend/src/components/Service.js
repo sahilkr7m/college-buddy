@@ -2,22 +2,6 @@ import React, { useState, useEffect } from 'react'
 import ServiceItem from './ServiceItem'
 
 function Service() {
-    // const ser = [
-    //     {
-    //         "id": 1,
-    //         "name": "Vychita PG",
-    //         "address": "Ckg tower, Near silk factory, vidyaranapuram",
-    //         "phone": "1234567890",
-    //         "rent": 6000
-    //     },
-    //     {
-    //         "id": 2,
-    //         "name": "Voilet PG",
-    //         "address": "Near Nie admin block",
-    //         "phone": "1234567890",
-    //         "rent": 6000
-    //     }
-    // ];
     const [service, setService] = useState(null)
     useEffect(() => {
         fetch("http://localhost:3000/api/pg")
@@ -39,7 +23,7 @@ function Service() {
             {service && <div className="row">
                 {service.map((element) => {
                     return <div className="col-md-4" key={element.id}>
-                        <ServiceItem name={element.name} address={element.address} />
+                        <ServiceItem id = {element.id} name={element.name} address={element.address} />
                     </div>
                 })}
             </div>}
