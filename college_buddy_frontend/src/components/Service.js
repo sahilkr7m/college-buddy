@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import ServiceItem from './ServiceItem'
 
-function Service() {
+function Service(props) {
     const [service, setService] = useState(null)
     useEffect(() => {
-        fetch("http://localhost:3000/api/pg")
+        fetch(`http://localhost:3000/api/${props.category}`)
             .then(resp => {
                 if (resp.ok === false) {
                     console.log('error!')
@@ -12,7 +12,6 @@ function Service() {
                 else {
                     return resp.json();
                 }
-
             })
             .then(data => setService(data))
             .catch(err => { console.log(err) });
@@ -23,7 +22,7 @@ function Service() {
             {service && <div className="row">
                 {service.map((element) => {
                     return <div className="col-md-4" key={element.id}>
-                        <ServiceItem id = {element.id} name={element.name} address={element.address} />
+                        <ServiceItem id = {element.id} name={element.name} address={element.address} image={element.image}/>
                     </div>
                 })}
             </div>}

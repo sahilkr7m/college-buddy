@@ -5,6 +5,7 @@ var Pg = function(pg){
     this.address          =   pg.address;
     this.phone          =   pg.phone;
     this.rent   =   pg.rent;
+    this.image = pg.image;
 }
 
 // get all pgs
