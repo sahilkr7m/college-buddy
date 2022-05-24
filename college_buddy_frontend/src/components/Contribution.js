@@ -2,8 +2,10 @@ import React from 'react'
 
 function Contribution() {
     return (
+       
+
         <div>
-            <form method="post" action="http://localhost:3000/api/contribute">
+             <form method="post" action="http://localhost:3000/api/contribute">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" name="name">name</label>
                     <input type="text" name="name" id="exampleInputEmail1" aria-describedby="emailHelp" />

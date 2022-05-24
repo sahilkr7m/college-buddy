@@ -1,12 +1,18 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import '../App.css';
+//import '../App.css';
+import '../service.css'
 function ServiceItem(props) {
     // console.log(props.id)
     const url = "/pg/" + props.id;
     const imgurl = props.image;
     return (
+        
         <div className='my-3'>
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="card" style={{width: "18rem"}}>
                 <img src={imgurl} className="card-img-top cardImg" alt="..." />
                     <div className="card-body">
