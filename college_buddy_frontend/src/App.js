@@ -1,6 +1,7 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom'
 import './App.css';
 import About from './components/About';
+import Blog from './components/Blog';
 import Contribution from './components/Contribution';
 import Home from './components/Home';
 import Message from './components/Message';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contribute/message" element = {<Message />} />
           <Route path="/pg" element = {<Service category="pg"/>} />
           <Route path="/hostel" element = {<Service category="hostel"/>} />
+          <Route path="/blog" element = {<Blog />} />
           <Route path="/about" element = {<About />} />
           <Route path="/pg/:id" element={<ServiceDetail category="pg"/>} />
         </Routes>

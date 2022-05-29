@@ -8,7 +8,7 @@ import { AiFillStop } from "react-icons/ai";
 function Navbar() {
     return (
         <div>
-            <nav className="navbar fixed-top navbar-expand-sm navbar-custom navbar-expand-lg py-md-4" >
+            <nav className="navbar navbar-expand-sm navbar-custom navbar-expand-lg py-md-4" >
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">Fresher's Stop <AiFillStop/> </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
