@@ -1,8 +1,8 @@
-  -- MySQL dump 10.13  Distrib 8.0.29, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
 --
 -- Host: localhost    Database: collegebuddy
 -- ------------------------------------------------------
--- Server version	8.0.29-0ubuntu0.20.04.3
+-- Server version	8.0.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -28,7 +28,7 @@ CREATE TABLE `blog` (
   `create_date` date NOT NULL,
   `blog_data` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,6 +39,34 @@ LOCK TABLES `blog` WRITE;
 /*!40000 ALTER TABLE `blog` DISABLE KEYS */;
 INSERT INTO `blog` VALUES (1,'Goa trip','2022-05-24','Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni fugiat, quod temporibus iusto maiores adipisci impedit eligendi tempore accusamus alias quos nobis repudiandae, aperiam sunt. Sint quaerat dolorum modi cumque.\nOdit animi deleniti nam dolorem aperiam ipsum harum asperiores. Hic modi numquam ex amet voluptates facere, minima voluptatum. Corrupti quo at fugiat possimus suscipit corporis animi quas quisquam hic dicta!\nHarum totam quasi, aliquid suscipit voluptas perspiciatis culpa pariatur obcaecati dolorem quos facere voluptatum nesciunt sapiente, sed aut earum vero eveniet, error eum laudantium reiciendis deserunt! Excepturi deserunt perspiciatis earum.\nHarum obcaecati vero dolor et assumenda. Nulla voluptate modi odit, reprehenderit atque nesciunt, dolorum autem quibusdam ea explicabo nihil veniam. Inventore magnam blanditiis eum! Repudiandae totam repellendus quas quidem consequuntur?\nEveniet, esse. Numquam facilis beatae fuga quia sequi fugit veritatis ullam perferendis, illo cum officia exercitationem dolore, inventore, quo accusamus natus! Et nesciunt eos alias consectetur, facere inventore distinctio cupiditate?\nTemporibus ut autem voluptatem maiores fugiat quisquam earum sed distinctio asperiores incidunt eaque eum, iure quaerat quas laborum et in debitis, ipsa dolorum adipisci! Provident, sed. Unde dolor voluptates magnam.\nItaque harum tempora dicta qui minus ullam. Minus corrupti quis id. Eos nihil labore cum ad eaque commodi quas similique provident veniam neque, corporis adipisci consectetur repudiandae consequuntur dolor. Eius?\nVoluptatibus, corrupti? Vitae incidunt odio at necessitatibus animi commodi officiis cum. Nam fugiat pariatur laborum. Quis accusamus cum, voluptatibus beatae sunt sequi hic reprehenderit vitae iste rem maiores magnam eligendi!\nAssumenda accusamus ipsum animi, nisi et temporibus in dolor doloribus, odio optio dolore reiciendis repellendus maiores soluta atque pariatur vel nihil. Alias minus ex culpa ipsum quia incidunt vero illum.\nIpsam cum consequatur vero deleniti, nam reiciendis perspiciatis ullam repellendus voluptas magnam atque perferendis quia laboriosam deserunt voluptates accusantium autem voluptate quaerat ea facilis? Praesentium nobis hic unde minima cum.\nLabore suscipit animi numquam eos dolorum, placeat vitae error quos consequuntur. Quas ex cupiditate, a vero necessitatibus quasi voluptatibus explicabo iure quidem vitae dolorum omnis temporibus incidunt est officia ipsum.\nConsectetur, accusamus? Tempora nesciunt aut suscipit laborum fugit repellendus mollitia eum asperiores quam molestias! Sunt itaque iusto eum sint expedita ipsum fugit dignissimos, iste quia voluptatum, accusantium cupiditate tempora nulla.\nSuscipit repudiandae fugiat iure assumenda voluptatum at amet delectus sint quia minima, pariatur nulla, quo tempore, autem eos voluptas iste provident dolores qui labore odio. Recusandae maiores pariatur veritatis facere.\nTemporibus aliquam, doloremque, mollitia, inventore ipsa repellat voluptates repudiandae sunt vero quaerat labore. Ducimus, ullam! Repudiandae tempora consectetur deleniti modi est sapiente natus! Ut a laboriosam adipisci quidem, vitae est?\nOdio quibusdam totam animi cupiditate doloremque quod corporis autem magni suscipit minima neque architecto labore quia sit, quae perspiciatis eaque mollitia. Minus ducimus beatae placeat molestiae, doloremque eaque omnis aliquid.\nLabore, sequi. Neque nostrum deleniti, qui odio cumque, quos rem possimus nobis, illum quidem earum eum amet ratione sit dolorem numquam dolor natus. Facilis deleniti soluta aliquam dignissimos eos architecto.\nQuaerat omnis mollitia deleniti exercitationem quisquam, saepe esse perspiciatis? Reiciendis, cumque quas at ipsum dicta molestiae officia velit, esse quae saepe voluptates distinctio optio nisi fugit possimus mollitia, dignissimos obcaecati.\nArchitecto quibusdam laudantium veritatis non fuga quaerat saepe placeat corporis voluptatem. Autem consequuntur dolore voluptatem itaque esse explicabo voluptatum, cum enim amet alias dolor saepe? Aliquam illo voluptates vitae quas.\nNecessitatibus debitis quidem quas, veniam laudantium natus harum sit exercitationem non fugiat ad, dolorem quae error nam doloremque hic molestiae earum quam voluptatibus repudiandae cum voluptas? Ea incidunt voluptatem ut?\nRerum quos quod at saepe illum. Cupiditate, iste. Molestias recusandae quasi eligendi architecto mollitia cupiditate inventore aspernatur, modi, blanditiis quidem aut reprehenderit possimus ea consectetur fuga nulla voluptatibus temporibus iusto.\nEveniet laborum non nam porro perspiciatis quibusdam doloribus voluptas saepe cupiditate hic temporibus, cum tenetur vero cumque placeat eius, ad neque ducimus delectus ipsum. Ratione voluptatem veritatis expedita cupiditate non.\nAsperiores similique magnam iusto odit unde tenetur dignissimos nam sed ipsum molestias at quod voluptas aut, soluta, nisi libero mollitia corporis tempore temporibus provident, velit iste earum optio incidunt! Architecto.\nRerum at eum excepturi architecto fugit accusamus! Ullam ab officiis molestiae tempore asperiores provident deleniti accusamus temporibus similique recusandae dolore, obcaecati facere saepe aliquid at. Soluta quidem quia voluptate minus!\nIncidunt itaque maiores harum mollitia earum alias repudiandae ab sequi tempore nostrum? Eaque animi maiores ex repellat non dolorem quas, sapiente nihil inventore id eos aut itaque architecto doloribus rem.'),(2,'mysore Trip','2022-04-12','This is to test the update request to the update backend aipi');
 /*!40000 ALTER TABLE `blog` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `hospital`
+--
+
+DROP TABLE IF EXISTS `hospital`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `hospital` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `category` varchar(100) DEFAULT NULL,
+  `rating` varchar(100) DEFAULT NULL,
+  `urls` varchar(300) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `hospital`
+--
+
+LOCK TABLES `hospital` WRITE;
+/*!40000 ALTER TABLE `hospital` DISABLE KEYS */;
+INSERT INTO `hospital` VALUES (1,'At Mary Hospital OT','7JMR+QJW','Hospital','3.2(12)','\"https://www.google.com/maps/place/At+Mary+Hospital+OT/@12.2844907,76.637349,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f38215e0093:0x51665218712f30c9!8m2!3d12.2844855!4d76.6415762!15sCgEqkgEIaG9zcGl0YWw\"'),(2,'Medcure DIAGNOSTICS & Polyclinic','\"#67/A, MG Road\"','Hospital','3.1(34)','\"https://www.google.com/maps/place/Medcure+DIAGNOSTICS+%26+Polyclinic/@12.2973567,76.6515668,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf701b81870a3b:0xfee68b9808a20749!8m2!3d12.2973515!4d76.655794!15sCgEqkgEIaG9zcGl0YWw\"'),(3,'SANCHALANA HOSPITAL','\"#63, SUNDEW Complex, opp. JSS Hospital\"','Hospital','5.0(4)','\"https://www.google.com/maps/place/SANCHALANA+HOSPITAL/@12.2973645,76.6520325,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf716e3814c45f:0x979f7e3b4cde72e7!8m2!3d12.2973593!4d76.6562597!15sCgEqkgEIaG9zcGl0YWw\"'),(4,'GCÔÇÖs Sports medicine & Multispeciality Hospital','GS Ramakrishnaiah Main Rd','Hospital','4.9(83)','\"https://www.google.com/maps/place/GC%E2%80%99s+Sports+medicine+%26+Multispeciality+Hospital/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6fe311f6f533:0x4fb5099dcfbc8685!8m2!3d12.278051!4d76.6432147!15sCgEqkgEIaG9zcGl0YWw\"'),(5,'Kamala Raman Hospital','\"1498/6, Ramaiah Rd\"','Hospital','4.8(6)','\"https://www.google.com/maps/place/Kamala+Raman+Hospital/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf70006c7cab41:0xbd8093e83a3ab7e7!8m2!3d12.292277!4d76.6423094!15sCgEqkgEIaG9zcGl0YWw\"'),(6,'P H C Ayar Care Clinic','\"8J3X+7MJ, Cheluvamba Agrahara, K.R. Mohalla, near Darshan Enterprises\"','Hospital','2.5(2)','\"https://www.google.com/maps/place/P+H+C+Ayar+Care+Clinic/@12.3032229,76.6449022,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf700f6e055a8d:0xda8edbc4df0d073a!8m2!3d12.3032177!4d76.6491294!15sCgEqkgEIaG9zcGl0YWw\"'),(7,'Kamakshi Hospital Jp Nagar Unit','','Hospital','3.8(48)','\"https://www.google.com/maps/place/Kamakshi+Hospital+Jp+Nagar+Unit/@12.2648435,76.6310615,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65672b80964b:0xbc7c95a896fd6087!8m2!3d12.2648383!4d76.6352887!15sCgEqWgMiASqSAQhob3NwaXRhbLABAA\"'),(8,'Pooja Clinic','\"37, 18th Cross, 2nd Main, Udayaravi Rd, near Rama Mandira Stop\"','Medical clinic','3.0(12)','\"https://www.google.com/maps/place/Pooja+Clinic/@12.285495,76.631799,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65540f7649d9:0x260d8c99aae7adbd!8m2!3d12.2854899!4d76.6360262!15sCgEqkgEObWVkaWNhbF9jbGluaWM\"'),(9,'Udupa Clinic','\"1638, Ó▓¿Ó▓¥Ó▓░Ó▓¥Ó▓»Ó▓ú Ó▓ÂÓ▓¥Ó▓©Ó│ìÓ▓ñÓ│ìÓ▓░Ó▓┐ Ó▓░Ó▓©Ó│ìÓ▓ñÓ│å\"','Hospital','4.1(14)','\"https://www.google.com/maps/place/Udupa+Clinic/@12.2960141,76.643568,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7003f0571399:0x2f0299252daa827f!8m2!3d12.2960089!4d76.6477952!15sCgEqkgEIaG9zcGl0YWw\"'),(10,'Sri Annapurna Clinic','\"2377, New Kantharaj Urs Rd\"','Hospital','5.0(1)','\"https://www.google.com/maps/place/Sri+Annapurna+Clinic/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7aaeab1dd209:0x3973c91064f545cc!8m2!3d12.2960422!4d76.6353727!15sCgEqkgEIaG9zcGl0YWw\"'),(11,'\"SECURE Hospital, Mysuru\"','\"#1659, Sitaranga Healthcare Complex, NS Road\"','Hospital','2.8(118)','\"https://www.google.com/maps/place/SECURE+Hospital,+Mysuru/@12.2952648,76.643979,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7003ea1587dd:0xee02922cf4f5628b!8m2!3d12.2952596!4d76.6482062!15sCgEqkgEIaG9zcGl0YWw\"'),(12,'Kanagal hospital','207/206','Hospital','2.0(12)','\"https://www.google.com/maps/place/Kanagal+hospital/@12.2815482,76.6437914,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f31e841ebfd:0xdbee7aeb0daba3ab!8m2!3d12.281543!4d76.6480186!15sCgEqkgEIaG9zcGl0YWw\"'),(13,'panacia clinic Mysore','\"356, Sayyaji Rao Rd\"','Hospital','2.0(6)','\"https://www.google.com/maps/place/panacia+clinic+Mysore/@12.2988702,76.6485508,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7004d200df67:0x15aec170924ec035!8m2!3d12.298865!4d76.652778!15sCgEqkgEIaG9zcGl0YWw\"'),(14,'VINAYAKA CLINIC','\"Palya main road, N H Palya, Block A, 570008, NH, USA\"','Hospital','0.0(0)','\"https://www.google.com/maps/place/VINAYAKA+CLINIC/@12.2652659,76.6348129,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6561ad45c857:0x8adf7e9a9ca78d2!8m2!3d12.2652607!4d76.6390401!15sCgEqkgEIaG9zcGl0YWw\"'),(15,'Dr Krishnamurthy Pediatricians Clinic','\"7JPP+RFC, Unnamed Road\"','Hospital','5.0(21)','\"https://www.google.com/maps/place/Dr+Krishnamurthy+Pediatricians+Clinic/@12.2870761,76.6319076,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65596de40015:0x78543b8754442fee!8m2!3d12.2870709!4d76.6361348!15sCgEqkgEIaG9zcGl0YWw\"'),(16,'Health Point','\"201, C Block, 10th Main, 10th Main, Near Complex, J.P. Nagar\"','Hospital','0.0(0)','\"https://www.google.com/maps/place/Health+Point/@12.2659222,76.6406058,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f8b060fe4c9:0x9085221bde3ac195!8m2!3d12.265917!4d76.644833!15sCgEqkgEIaG9zcGl0YWw\"'),(17,'Snt Meris General Hospital','\"7JPV+22F, N.I.E. College Road, Vidyaranyapuram, near N.I.E. College\"','Hospital','0.0(0)','\"https://www.google.com/maps/place/Snt+Meris+General+Hospital/@12.2850652,76.6383328,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ff8b52f289f:0x7b6086cf8a0a2be7!8m2!3d12.28506!4d76.64256!15sCgEqkgEIaG9zcGl0YWw\"'),(18,'Sumuka Clinic','\"2, 2nd Stage, Industrial Suburb, 2nd Stage, Near Arallikate Bus Stop, Vishweshwara Nagar\"','Hospital','4.0(1)','\"https://www.google.com/maps/place/Sumuka+Clinic/@12.2749761,76.6386689,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ff66b882e2b:0xfd7fe3345776179c!8m2!3d12.2749709!4d76.6428961!15sCgEqkgEIaG9zcGl0YWw\"'),(19,'Mahalaxmi Clinic','\"No. 162/2, 4th Main, Sarvajanika Hostel Road, 4th Main, Sarvajanika Hostel Road, Near Public Hostel, Vidyaranyapuram\"','Hospital','5.0(1)','\"https://www.google.com/maps/place/Mahalaxmi+Clinic/@12.2854191,76.6413983,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ffeb58f3f37:0x4dacd7a77692ca0!8m2!3d12.2854139!4d76.6456255!15sCgEqkgEIaG9zcGl0YWw\"'),(20,'Narayana Hrudayalaya Clinics','\"8J6W+4WV, Vinoba Rd\"','Hospital','4.3(13)','\"https://www.google.com/maps/place/Narayana+Hrudayalaya+Clinics/@12.3103624,76.643068,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf700c7e5f4d35:0xe35bab6f8dfa4f42!8m2!3d12.3103572!4d76.6472952!15sCgEqkgEIaG9zcGl0YWw\"');
+/*!40000 ALTER TABLE `hospital` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -93,6 +121,31 @@ LOCK TABLES `stationary` WRITE;
 /*!40000 ALTER TABLE `stationary` DISABLE KEYS */;
 /*!40000 ALTER TABLE `stationary` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `student_feedback`
+--
+
+DROP TABLE IF EXISTS `student_feedback`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `student_feedback` (
+  `Name` varchar(45) DEFAULT NULL,
+  `Address` varchar(45) DEFAULT NULL,
+  `gmaplink` varchar(200) DEFAULT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `student_feedback`
+--
+
+LOCK TABLES `student_feedback` WRITE;
+/*!40000 ALTER TABLE `student_feedback` DISABLE KEYS */;
+/*!40000 ALTER TABLE `student_feedback` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -103,97 +156,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-27 20:10:43
-
-DROP TABLE IF EXISTS `hospitals`;
-/* CREATE TABLE */
-CREATE TABLE `hospitals`(
-`id` INT NOT NULL AUTO_INCREMENT,
-`Place` VARCHAR(100),
-`Address` VARCHAR(255),
-`Category` VARCHAR(100),
-`Rating` VARCHAR(100),
-`urls` VARCHAR(300),
-PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-/* INSERT QUERY NO: 1 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (0, 'Narayana Hrudayalaya Clinics', '"8J6W+4WV, Vinoba Rd"', 'Hospital', '4.3(13)', '"https://www.google.com/maps/place/Narayana+Hrudayalaya+Clinics/@12.3103624,76.643068,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf700c7e5f4d35:0xe35bab6f8dfa4f42!8m2!3d12.3103572!4d76.6472952!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 2 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (1, 'At Mary Hospital OT', '7JMR+QJW', 'Hospital', '3.2(12)', '"https://www.google.com/maps/place/At+Mary+Hospital+OT/@12.2844907,76.637349,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f38215e0093:0x51665218712f30c9!8m2!3d12.2844855!4d76.6415762!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 3 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (2, 'Medcure DIAGNOSTICS & Polyclinic', '"#67/A, MG Road"', 'Hospital', '3.1(34)', '"https://www.google.com/maps/place/Medcure+DIAGNOSTICS+%26+Polyclinic/@12.2973567,76.6515668,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf701b81870a3b:0xfee68b9808a20749!8m2!3d12.2973515!4d76.655794!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 4 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (3, 'SANCHALANA HOSPITAL', '"#63, SUNDEW Complex, opp. JSS Hospital"', 'Hospital', '5.0(4)', '"https://www.google.com/maps/place/SANCHALANA+HOSPITAL/@12.2973645,76.6520325,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf716e3814c45f:0x979f7e3b4cde72e7!8m2!3d12.2973593!4d76.6562597!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 5 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (4, 'GC’s Sports medicine & Multispeciality Hospital', 'GS Ramakrishnaiah Main Rd', 'Hospital', '4.9(83)', '"https://www.google.com/maps/place/GC%E2%80%99s+Sports+medicine+%26+Multispeciality+Hospital/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6fe311f6f533:0x4fb5099dcfbc8685!8m2!3d12.278051!4d76.6432147!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 6 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (5, 'Kamala Raman Hospital', '"1498/6, Ramaiah Rd"', 'Hospital', '4.8(6)', '"https://www.google.com/maps/place/Kamala+Raman+Hospital/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf70006c7cab41:0xbd8093e83a3ab7e7!8m2!3d12.292277!4d76.6423094!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 7 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (6, 'P H C Ayar Care Clinic', '"8J3X+7MJ, Cheluvamba Agrahara, K.R. Mohalla, near Darshan Enterprises"', 'Hospital', '2.5(2)', '"https://www.google.com/maps/place/P+H+C+Ayar+Care+Clinic/@12.3032229,76.6449022,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf700f6e055a8d:0xda8edbc4df0d073a!8m2!3d12.3032177!4d76.6491294!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 8 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (7, 'Kamakshi Hospital Jp Nagar Unit', '', 'Hospital', '3.8(48)', '"https://www.google.com/maps/place/Kamakshi+Hospital+Jp+Nagar+Unit/@12.2648435,76.6310615,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65672b80964b:0xbc7c95a896fd6087!8m2!3d12.2648383!4d76.6352887!15sCgEqWgMiASqSAQhob3NwaXRhbLABAA"');
-
-/* INSERT QUERY NO: 9 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (8, 'Pooja Clinic', '"37, 18th Cross, 2nd Main, Udayaravi Rd, near Rama Mandira Stop"', 'Medical clinic', '3.0(12)', '"https://www.google.com/maps/place/Pooja+Clinic/@12.285495,76.631799,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65540f7649d9:0x260d8c99aae7adbd!8m2!3d12.2854899!4d76.6360262!15sCgEqkgEObWVkaWNhbF9jbGluaWM"');
-
-/* INSERT QUERY NO: 10 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (9, 'Udupa Clinic', '"1638, ನಾರಾಯಣ ಶಾಸ್ತ್ರಿ ರಸ್ತೆ"', 'Hospital', '4.1(14)', '"https://www.google.com/maps/place/Udupa+Clinic/@12.2960141,76.643568,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7003f0571399:0x2f0299252daa827f!8m2!3d12.2960089!4d76.6477952!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 11 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (10, 'Sri Annapurna Clinic', '"2377, New Kantharaj Urs Rd"', 'Hospital', '5.0(1)', '"https://www.google.com/maps/place/Sri+Annapurna+Clinic/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7aaeab1dd209:0x3973c91064f545cc!8m2!3d12.2960422!4d76.6353727!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 12 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (11, '"SECURE Hospital, Mysuru"', '"#1659, Sitaranga Healthcare Complex, NS Road"', 'Hospital', '2.8(118)', '"https://www.google.com/maps/place/SECURE+Hospital,+Mysuru/@12.2952648,76.643979,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7003ea1587dd:0xee02922cf4f5628b!8m2!3d12.2952596!4d76.6482062!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 13 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (12, 'Kanagal hospital', '207/206', 'Hospital', '2.0(12)', '"https://www.google.com/maps/place/Kanagal+hospital/@12.2815482,76.6437914,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f31e841ebfd:0xdbee7aeb0daba3ab!8m2!3d12.281543!4d76.6480186!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 14 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (13, 'panacia clinic Mysore', '"356, Sayyaji Rao Rd"', 'Hospital', '2.0(6)', '"https://www.google.com/maps/place/panacia+clinic+Mysore/@12.2988702,76.6485508,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7004d200df67:0x15aec170924ec035!8m2!3d12.298865!4d76.652778!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 15 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (14, 'VINAYAKA CLINIC', '"Palya main road, N H Palya, Block A, 570008, NH, USA"', 'Hospital', '0.0(0)', '"https://www.google.com/maps/place/VINAYAKA+CLINIC/@12.2652659,76.6348129,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6561ad45c857:0x8adf7e9a9ca78d2!8m2!3d12.2652607!4d76.6390401!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 16 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (15, 'Dr Krishnamurthy Pediatricians Clinic', '"7JPP+RFC, Unnamed Road"', 'Hospital', '5.0(21)', '"https://www.google.com/maps/place/Dr+Krishnamurthy+Pediatricians+Clinic/@12.2870761,76.6319076,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65596de40015:0x78543b8754442fee!8m2!3d12.2870709!4d76.6361348!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 17 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (16, 'Health Point', '"201, C Block, 10th Main, 10th Main, Near Complex, J.P. Nagar"', 'Hospital', '0.0(0)', '"https://www.google.com/maps/place/Health+Point/@12.2659222,76.6406058,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f8b060fe4c9:0x9085221bde3ac195!8m2!3d12.265917!4d76.644833!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 18 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (17, 'Snt Meris General Hospital', '"7JPV+22F, N.I.E. College Road, Vidyaranyapuram, near N.I.E. College"', 'Hospital', '0.0(0)', '"https://www.google.com/maps/place/Snt+Meris+General+Hospital/@12.2850652,76.6383328,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ff8b52f289f:0x7b6086cf8a0a2be7!8m2!3d12.28506!4d76.64256!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 19 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (18, 'Sumuka Clinic', '"2, 2nd Stage, Industrial Suburb, 2nd Stage, Near Arallikate Bus Stop, Vishweshwara Nagar"', 'Hospital', '4.0(1)', '"https://www.google.com/maps/place/Sumuka+Clinic/@12.2749761,76.6386689,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ff66b882e2b:0xfd7fe3345776179c!8m2!3d12.2749709!4d76.6428961!15sCgEqkgEIaG9zcGl0YWw"');
-
-/* INSERT QUERY NO: 20 */
-INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
-VALUES (19, 'Mahalaxmi Clinic', '"No. 162/2, 4th Main, Sarvajanika Hostel Road, 4th Main, Sarvajanika Hostel Road, Near Public Hostel, Vidyaranyapuram"', 'Hospital', '5.0(1)', '"https://www.google.com/maps/place/Mahalaxmi+Clinic/@12.2854191,76.6413983,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ffeb58f3f37:0x4dacd7a77692ca0!8m2!3d12.2854139!4d76.6456255!15sCgEqkgEIaG9zcGl0YWw"');
-
+-- Dump completed on 2022-05-29 22:31:07

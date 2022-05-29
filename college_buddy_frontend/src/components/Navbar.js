@@ -26,7 +26,7 @@ function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="/about">About</Link>
                             </li>
                             <li className="nav-item nav-link px-3">
-                                <Link className="nav-link active" aria-current="page" to="/hostel">Hospital</Link>
+                                <Link className="nav-link active" aria-current="page" to="/hospital">Hospital</Link>
                             </li>
                             <li className="nav-item nav-link px-3">
                                 <Link className="nav-link active" aria-current="page" to="/contribute">Would like to Contribute?</Link>

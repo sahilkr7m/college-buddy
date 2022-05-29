@@ -20,6 +20,7 @@ function App() {
           <Route path="/contribute/message" element = {<Message />} />
           <Route path="/pg" element = {<Service category="pg"/>} />
           <Route path="/hostel" element = {<Service category="hostel"/>} />
+          <Route path="/hospital" element = {<Service category="hospital"/>} />
           <Route path="/blog" element = {<Blog />} />
           <Route path="/about" element = {<About />} />
           <Route path="/pg/:id" element={<ServiceDetail category="pg"/>} />
