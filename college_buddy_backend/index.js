@@ -22,11 +22,13 @@ app.get("/", (req, res) => {
 const pgRoutes = require("./src/routes/pg.route");
 const contributeRoutes = require("./src/routes/contribute.route");
 const blogRoutes = require("./src/routes/blogs.route");
+const hospitalRoutes = require("./src/routes/hospital.route");
 
 //create pg routes
 app.use("/api/pg", pgRoutes);
 app.use("/api/contribute", contributeRoutes);
 app.use("/api/blog", blogRoutes);
+app.use("/api/hospital", hospitalRoutes);
 
 //listen to the port
 app.listen(port, () => {

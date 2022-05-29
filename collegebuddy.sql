@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 8.0.29, for Linux (x86_64)
+  -- MySQL dump 10.13  Distrib 8.0.29, for Linux (x86_64)
 --
 -- Host: localhost    Database: collegebuddy
 -- ------------------------------------------------------
@@ -28,7 +28,7 @@ CREATE TABLE `blog` (
   `create_date` date NOT NULL,
   `blog_data` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -59,7 +59,7 @@ CREATE TABLE `pg` (
   `lat` varchar(100) DEFAULT NULL,
   `lng` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -104,3 +104,96 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2022-05-27 20:10:43
+
+DROP TABLE IF EXISTS `hospitals`;
+/* CREATE TABLE */
+CREATE TABLE `hospitals`(
+`id` INT NOT NULL AUTO_INCREMENT,
+`Place` VARCHAR(100),
+`Address` VARCHAR(255),
+`Category` VARCHAR(100),
+`Rating` VARCHAR(100),
+`urls` VARCHAR(300),
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+/* INSERT QUERY NO: 1 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (0, 'Narayana Hrudayalaya Clinics', '"8J6W+4WV, Vinoba Rd"', 'Hospital', '4.3(13)', '"https://www.google.com/maps/place/Narayana+Hrudayalaya+Clinics/@12.3103624,76.643068,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf700c7e5f4d35:0xe35bab6f8dfa4f42!8m2!3d12.3103572!4d76.6472952!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 2 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (1, 'At Mary Hospital OT', '7JMR+QJW', 'Hospital', '3.2(12)', '"https://www.google.com/maps/place/At+Mary+Hospital+OT/@12.2844907,76.637349,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f38215e0093:0x51665218712f30c9!8m2!3d12.2844855!4d76.6415762!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 3 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (2, 'Medcure DIAGNOSTICS & Polyclinic', '"#67/A, MG Road"', 'Hospital', '3.1(34)', '"https://www.google.com/maps/place/Medcure+DIAGNOSTICS+%26+Polyclinic/@12.2973567,76.6515668,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf701b81870a3b:0xfee68b9808a20749!8m2!3d12.2973515!4d76.655794!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 4 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (3, 'SANCHALANA HOSPITAL', '"#63, SUNDEW Complex, opp. JSS Hospital"', 'Hospital', '5.0(4)', '"https://www.google.com/maps/place/SANCHALANA+HOSPITAL/@12.2973645,76.6520325,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf716e3814c45f:0x979f7e3b4cde72e7!8m2!3d12.2973593!4d76.6562597!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 5 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (4, 'GC’s Sports medicine & Multispeciality Hospital', 'GS Ramakrishnaiah Main Rd', 'Hospital', '4.9(83)', '"https://www.google.com/maps/place/GC%E2%80%99s+Sports+medicine+%26+Multispeciality+Hospital/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6fe311f6f533:0x4fb5099dcfbc8685!8m2!3d12.278051!4d76.6432147!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 6 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (5, 'Kamala Raman Hospital', '"1498/6, Ramaiah Rd"', 'Hospital', '4.8(6)', '"https://www.google.com/maps/place/Kamala+Raman+Hospital/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf70006c7cab41:0xbd8093e83a3ab7e7!8m2!3d12.292277!4d76.6423094!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 7 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (6, 'P H C Ayar Care Clinic', '"8J3X+7MJ, Cheluvamba Agrahara, K.R. Mohalla, near Darshan Enterprises"', 'Hospital', '2.5(2)', '"https://www.google.com/maps/place/P+H+C+Ayar+Care+Clinic/@12.3032229,76.6449022,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf700f6e055a8d:0xda8edbc4df0d073a!8m2!3d12.3032177!4d76.6491294!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 8 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (7, 'Kamakshi Hospital Jp Nagar Unit', '', 'Hospital', '3.8(48)', '"https://www.google.com/maps/place/Kamakshi+Hospital+Jp+Nagar+Unit/@12.2648435,76.6310615,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65672b80964b:0xbc7c95a896fd6087!8m2!3d12.2648383!4d76.6352887!15sCgEqWgMiASqSAQhob3NwaXRhbLABAA"');
+
+/* INSERT QUERY NO: 9 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (8, 'Pooja Clinic', '"37, 18th Cross, 2nd Main, Udayaravi Rd, near Rama Mandira Stop"', 'Medical clinic', '3.0(12)', '"https://www.google.com/maps/place/Pooja+Clinic/@12.285495,76.631799,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65540f7649d9:0x260d8c99aae7adbd!8m2!3d12.2854899!4d76.6360262!15sCgEqkgEObWVkaWNhbF9jbGluaWM"');
+
+/* INSERT QUERY NO: 10 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (9, 'Udupa Clinic', '"1638, ನಾರಾಯಣ ಶಾಸ್ತ್ರಿ ರಸ್ತೆ"', 'Hospital', '4.1(14)', '"https://www.google.com/maps/place/Udupa+Clinic/@12.2960141,76.643568,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7003f0571399:0x2f0299252daa827f!8m2!3d12.2960089!4d76.6477952!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 11 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (10, 'Sri Annapurna Clinic', '"2377, New Kantharaj Urs Rd"', 'Hospital', '5.0(1)', '"https://www.google.com/maps/place/Sri+Annapurna+Clinic/@12.2877219,76.6282645,14z/data=!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7aaeab1dd209:0x3973c91064f545cc!8m2!3d12.2960422!4d76.6353727!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 12 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (11, '"SECURE Hospital, Mysuru"', '"#1659, Sitaranga Healthcare Complex, NS Road"', 'Hospital', '2.8(118)', '"https://www.google.com/maps/place/SECURE+Hospital,+Mysuru/@12.2952648,76.643979,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7003ea1587dd:0xee02922cf4f5628b!8m2!3d12.2952596!4d76.6482062!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 13 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (12, 'Kanagal hospital', '207/206', 'Hospital', '2.0(12)', '"https://www.google.com/maps/place/Kanagal+hospital/@12.2815482,76.6437914,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f31e841ebfd:0xdbee7aeb0daba3ab!8m2!3d12.281543!4d76.6480186!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 14 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (13, 'panacia clinic Mysore', '"356, Sayyaji Rao Rd"', 'Hospital', '2.0(6)', '"https://www.google.com/maps/place/panacia+clinic+Mysore/@12.2988702,76.6485508,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf7004d200df67:0x15aec170924ec035!8m2!3d12.298865!4d76.652778!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 15 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (14, 'VINAYAKA CLINIC', '"Palya main road, N H Palya, Block A, 570008, NH, USA"', 'Hospital', '0.0(0)', '"https://www.google.com/maps/place/VINAYAKA+CLINIC/@12.2652659,76.6348129,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6561ad45c857:0x8adf7e9a9ca78d2!8m2!3d12.2652607!4d76.6390401!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 16 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (15, 'Dr Krishnamurthy Pediatricians Clinic', '"7JPP+RFC, Unnamed Road"', 'Hospital', '5.0(21)', '"https://www.google.com/maps/place/Dr+Krishnamurthy+Pediatricians+Clinic/@12.2870761,76.6319076,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf65596de40015:0x78543b8754442fee!8m2!3d12.2870709!4d76.6361348!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 17 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (16, 'Health Point', '"201, C Block, 10th Main, 10th Main, Near Complex, J.P. Nagar"', 'Hospital', '0.0(0)', '"https://www.google.com/maps/place/Health+Point/@12.2659222,76.6406058,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6f8b060fe4c9:0x9085221bde3ac195!8m2!3d12.265917!4d76.644833!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 18 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (17, 'Snt Meris General Hospital', '"7JPV+22F, N.I.E. College Road, Vidyaranyapuram, near N.I.E. College"', 'Hospital', '0.0(0)', '"https://www.google.com/maps/place/Snt+Meris+General+Hospital/@12.2850652,76.6383328,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ff8b52f289f:0x7b6086cf8a0a2be7!8m2!3d12.28506!4d76.64256!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 19 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (18, 'Sumuka Clinic', '"2, 2nd Stage, Industrial Suburb, 2nd Stage, Near Arallikate Bus Stop, Vishweshwara Nagar"', 'Hospital', '4.0(1)', '"https://www.google.com/maps/place/Sumuka+Clinic/@12.2749761,76.6386689,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ff66b882e2b:0xfd7fe3345776179c!8m2!3d12.2749709!4d76.6428961!15sCgEqkgEIaG9zcGl0YWw"');
+
+/* INSERT QUERY NO: 20 */
+INSERT INTO hospitals(`id`, `Place`, `Address`, `Category`, `Rating`, `urls`)
+VALUES (19, 'Mahalaxmi Clinic', '"No. 162/2, 4th Main, Sarvajanika Hostel Road, 4th Main, Sarvajanika Hostel Road, Near Public Hostel, Vidyaranyapuram"', 'Hospital', '5.0(1)', '"https://www.google.com/maps/place/Mahalaxmi+Clinic/@12.2854191,76.6413983,17z/data=!3m1!4b1!4m10!1m3!11m2!2s8MBXogcbTJSAf3hyww_T6g!3e3!3m5!1s0x3baf6ffeb58f3f37:0x4dacd7a77692ca0!8m2!3d12.2854139!4d76.6456255!15sCgEqkgEIaG9zcGl0YWw"');
+
