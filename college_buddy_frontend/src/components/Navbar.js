@@ -29,6 +29,9 @@ function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="/hospital">Hospital</Link>
                             </li>
                             <li className="nav-item nav-link px-3">
+                                <Link className="nav-link active" aria-current="page" to="/blog">Blog section</Link>
+                            </li>
+                            <li className="nav-item nav-link px-3">
                                 <Link className="nav-link active" aria-current="page" to="/contribute">Would like to Contribute?</Link>
                             </li>
 

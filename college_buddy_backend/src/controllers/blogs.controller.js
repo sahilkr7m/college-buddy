@@ -34,7 +34,7 @@ exports.createNewBlog = (req, res) => {
         res.send(err);
         res.json({ status: false, message: err.message, data: blog });
       } else {
-        res.redirect("http://localhost:3001/blog/message");
+        res.redirect("http://localhost:3001/blog");
       }
     });
   }
@@ -75,5 +75,6 @@ exports.deleteBlog = (req, res) => {
       success: true,
       message: "Blog deleted successfully!!!!",
     });
+    res.redirect("http://localhost:3001/blog")
   });
 };

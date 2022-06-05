@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 //import '../App.css';
 import '../service.css'
 function ServiceItem(props) {
-    // console.log(props.id)
+    console.log(props.id)
     const url = "/pg/" + props.id;
     const imgurl = props.data.image;
     return (
