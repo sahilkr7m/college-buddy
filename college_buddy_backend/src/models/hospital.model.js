@@ -6,6 +6,7 @@ var Hospital = function (hospital) {
   this.category = hospital.category;
   this.rating = hospital.rating;
   this.urls = hospital.urls;
+  this.image = hospital.image;
 };
 
 // get all Hospitals
