@@ -25,6 +25,7 @@ const blogRoutes = require("./src/routes/blogs.route");
 const hospitalRoutes = require("./src/routes/hospital.route");
 
 //create pg routes
+app.use("/upload", express.static("./uploads/images"));
 app.use("/api/pg", pgRoutes);
 app.use("/api/contribute", contributeRoutes);
 app.use("/api/blog", blogRoutes);

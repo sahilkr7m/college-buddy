@@ -6,6 +6,7 @@ var Blog = function (blog) {
   this.blog_data = blog.blog_data;
 };
 
+
 // get all blogs
 Blog.getAllBlogs = (result) => {
   dbCon.query("SELECT * FROM blog", (err, res) => {
