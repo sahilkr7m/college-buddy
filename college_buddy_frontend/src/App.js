@@ -18,16 +18,28 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element = {<Home />} />
-          <Route path="/contribute" element = {<Contribution />} />
-          <Route path="/contribute/message" element = {<Message />} />
+
+          {/* All PG's and hostels routes */}
           <Route path="/pg" element = {<Service category="pg"/>} />
-          <Route path="/hostel" element = {<Service category="hostel"/>} />
+          <Route path="/pg/:id" element={<ServiceDetail category="pg"/>} />
+
+          {/* All Hospitals routes */}
           <Route path="/hospital" element = {<Service category="hospital"/>} />
+          <Route path="/hospital/:id" element={<ServiceDetail category="hospital"/>} />
+
+          {/* All Blogs routes */}
           <Route path="/blog" element = {<Blog />} />
           <Route path="/blog/create" element = {<BlogForm />} />
-          <Route path="/about" element = {<About />} />
-          <Route path="/pg/:id" element={<ServiceDetail category="pg"/>} />
           <Route path="/blog/:id" element={<BlogDetail />} />
+
+          {/* All contribtion routes */}
+          <Route path="/contribute" element = {<Contribution />} />
+          <Route path="/contribute/message" element = {<Message />} />
+
+          
+          {/* <Route path="/hostel" element = {<Service category="hostel"/>} /> */}
+          <Route path="/about" element = {<About />} />
+          
         </Routes>
       </BrowserRouter>
 

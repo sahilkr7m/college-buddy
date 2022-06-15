@@ -25,7 +25,7 @@ function Service(props) {
           {service.map((element) => {
             return (
               <div className="col-md-4" key={element.id}>
-                <ServiceItem data={element} />
+                <ServiceItem data={element} category={props.category} />
               </div>
             );
           })}

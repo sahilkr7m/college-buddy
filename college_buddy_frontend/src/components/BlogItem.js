@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import '../service.css'
 
 function BlogItem(props) {
-    const url = "/blog/" + props.id;
+    const url = "/blog/" + props.data.id;
     const imgurl = "https://cdn.mos.cms.futurecdn.net/nfZYT7SrLCY5EaaPVSScLG.png";
     return (
         

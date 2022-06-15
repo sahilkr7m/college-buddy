@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "../service.css";
 function ServiceItem(props) {
 //   console.log(props.data.id);
-  const url = "/pg/" + props.data.id;
+  const url = "/" + props.category + "/" + props.data.id;
   const imgurl = props.data.image;
   return (
     <div className="my-3">
