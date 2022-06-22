@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.29, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
 --
 -- Host: localhost    Database: collegebuddy
 -- ------------------------------------------------------
--- Server version	8.0.29-0ubuntu0.20.04.3
+-- Server version	8.0.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -25,10 +25,13 @@ DROP TABLE IF EXISTS `blog`;
 CREATE TABLE `blog` (
   `id` int NOT NULL AUTO_INCREMENT,
   `title` varchar(45) NOT NULL,
+  `category` varchar(45) DEFAULT NULL,
+  `address` varchar(45) DEFAULT NULL,
   `create_date` date NOT NULL,
+  `img_src` varchar(255) DEFAULT NULL,
   `blog_data` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +40,7 @@ CREATE TABLE `blog` (
 
 LOCK TABLES `blog` WRITE;
 /*!40000 ALTER TABLE `blog` DISABLE KEYS */;
-INSERT INTO `blog` VALUES (1,'Goa trip','2022-05-24','Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni fugiat, quod temporibus iusto maiores adipisci impedit eligendi tempore accusamus alias quos nobis repudiandae, aperiam sunt. Sint quaerat dolorum modi cumque.\nOdit animi deleniti nam dolorem aperiam ipsum harum asperiores. Hic modi numquam ex amet voluptates facere, minima voluptatum. Corrupti quo at fugiat possimus suscipit corporis animi quas quisquam hic dicta!\nHarum totam quasi, aliquid suscipit voluptas perspiciatis culpa pariatur obcaecati dolorem quos facere voluptatum nesciunt sapiente, sed aut earum vero eveniet, error eum laudantium reiciendis deserunt! Excepturi deserunt perspiciatis earum.\nHarum obcaecati vero dolor et assumenda. Nulla voluptate modi odit, reprehenderit atque nesciunt, dolorum autem quibusdam ea explicabo nihil veniam. Inventore magnam blanditiis eum! Repudiandae totam repellendus quas quidem consequuntur?\nEveniet, esse. Numquam facilis beatae fuga quia sequi fugit veritatis ullam perferendis, illo cum officia exercitationem dolore, inventore, quo accusamus natus! Et nesciunt eos alias consectetur, facere inventore distinctio cupiditate?\nTemporibus ut autem voluptatem maiores fugiat quisquam earum sed distinctio asperiores incidunt eaque eum, iure quaerat quas laborum et in debitis, ipsa dolorum adipisci! Provident, sed. Unde dolor voluptates magnam.\nItaque harum tempora dicta qui minus ullam. Minus corrupti quis id. Eos nihil labore cum ad eaque commodi quas similique provident veniam neque, corporis adipisci consectetur repudiandae consequuntur dolor. Eius?\nVoluptatibus, corrupti? Vitae incidunt odio at necessitatibus animi commodi officiis cum. Nam fugiat pariatur laborum. Quis accusamus cum, voluptatibus beatae sunt sequi hic reprehenderit vitae iste rem maiores magnam eligendi!\nAssumenda accusamus ipsum animi, nisi et temporibus in dolor doloribus, odio optio dolore reiciendis repellendus maiores soluta atque pariatur vel nihil. Alias minus ex culpa ipsum quia incidunt vero illum.\nIpsam cum consequatur vero deleniti, nam reiciendis perspiciatis ullam repellendus voluptas magnam atque perferendis quia laboriosam deserunt voluptates accusantium autem voluptate quaerat ea facilis? Praesentium nobis hic unde minima cum.\nLabore suscipit animi numquam eos dolorum, placeat vitae error quos consequuntur. Quas ex cupiditate, a vero necessitatibus quasi voluptatibus explicabo iure quidem vitae dolorum omnis temporibus incidunt est officia ipsum.\nConsectetur, accusamus? Tempora nesciunt aut suscipit laborum fugit repellendus mollitia eum asperiores quam molestias! Sunt itaque iusto eum sint expedita ipsum fugit dignissimos, iste quia voluptatum, accusantium cupiditate tempora nulla.\nSuscipit repudiandae fugiat iure assumenda voluptatum at amet delectus sint quia minima, pariatur nulla, quo tempore, autem eos voluptas iste provident dolores qui labore odio. Recusandae maiores pariatur veritatis facere.\nTemporibus aliquam, doloremque, mollitia, inventore ipsa repellat voluptates repudiandae sunt vero quaerat labore. Ducimus, ullam! Repudiandae tempora consectetur deleniti modi est sapiente natus! Ut a laboriosam adipisci quidem, vitae est?\nOdio quibusdam totam animi cupiditate doloremque quod corporis autem magni suscipit minima neque architecto labore quia sit, quae perspiciatis eaque mollitia. Minus ducimus beatae placeat molestiae, doloremque eaque omnis aliquid.\nLabore, sequi. Neque nostrum deleniti, qui odio cumque, quos rem possimus nobis, illum quidem earum eum amet ratione sit dolorem numquam dolor natus. Facilis deleniti soluta aliquam dignissimos eos architecto.\nQuaerat omnis mollitia deleniti exercitationem quisquam, saepe esse perspiciatis? Reiciendis, cumque quas at ipsum dicta molestiae officia velit, esse quae saepe voluptates distinctio optio nisi fugit possimus mollitia, dignissimos obcaecati.\nArchitecto quibusdam laudantium veritatis non fuga quaerat saepe placeat corporis voluptatem. Autem consequuntur dolore voluptatem itaque esse explicabo voluptatum, cum enim amet alias dolor saepe? Aliquam illo voluptates vitae quas.\nNecessitatibus debitis quidem quas, veniam laudantium natus harum sit exercitationem non fugiat ad, dolorem quae error nam doloremque hic molestiae earum quam voluptatibus repudiandae cum voluptas? Ea incidunt voluptatem ut?\nRerum quos quod at saepe illum. Cupiditate, iste. Molestias recusandae quasi eligendi architecto mollitia cupiditate inventore aspernatur, modi, blanditiis quidem aut reprehenderit possimus ea consectetur fuga nulla voluptatibus temporibus iusto.\nEveniet laborum non nam porro perspiciatis quibusdam doloribus voluptas saepe cupiditate hic temporibus, cum tenetur vero cumque placeat eius, ad neque ducimus delectus ipsum. Ratione voluptatem veritatis expedita cupiditate non.\nAsperiores similique magnam iusto odit unde tenetur dignissimos nam sed ipsum molestias at quod voluptas aut, soluta, nisi libero mollitia corporis tempore temporibus provident, velit iste earum optio incidunt! Architecto.\nRerum at eum excepturi architecto fugit accusamus! Ullam ab officiis molestiae tempore asperiores provident deleniti accusamus temporibus similique recusandae dolore, obcaecati facere saepe aliquid at. Soluta quidem quia voluptate minus!\nIncidunt itaque maiores harum mollitia earum alias repudiandae ab sequi tempore nostrum? Eaque animi maiores ex repellat non dolorem quas, sapiente nihil inventore id eos aut itaque architecto doloribus rem.'),(2,'mysore Trip','2022-04-12','This is to test the update request to the update backend aipi'),(3,'the blog','2022-06-11','this is the blog ');
+INSERT INTO `blog` VALUES (8,'fwqfqw','tech',NULL,'2022-06-17','https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1','wqfqwfwqf'),(9,'fwef','food',NULL,'2022-06-16','https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1','fewfwe'),(10,'fweg','travel',NULL,'2022-06-25','https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1','wegweg'),(11,'gweg','tips',NULL,'2022-06-24','https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1','fwegweg'),(12,'Coorg - The Scotland of India','Travel and tips','Coorg','2022-04-14','https://hblimg.mmtcdn.com/content/hubble/img/coorg/mmt/destination/m_Coorg_activity_trekking_l_495_743.jpg','Madikeri is a hill town in southern India. Framed by the Western Ghats mountain range, it’s known for the Raja’s Seat, a simple monument overlooking forests and rice paddies. In the center, the 17th-century Madikeri Fort features 2 stone elephants at the entrance. Nearby, the domed Omkareshwar Temple is dedicated to the Hindu deity Shiva. To the northwest, cascading Abbey Falls is surrounded by spice plantations.');
 /*!40000 ALTER TABLE `blog` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -150,6 +153,31 @@ LOCK TABLES `stationary` WRITE;
 /*!40000 ALTER TABLE `stationary` DISABLE KEYS */;
 /*!40000 ALTER TABLE `stationary` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `student_feedback`
+--
+
+DROP TABLE IF EXISTS `student_feedback`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `student_feedback` (
+  `Name` varchar(45) DEFAULT NULL,
+  `Address` varchar(45) DEFAULT NULL,
+  `gmaplink` varchar(200) DEFAULT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `student_feedback`
+--
+
+LOCK TABLES `student_feedback` WRITE;
+/*!40000 ALTER TABLE `student_feedback` DISABLE KEYS */;
+/*!40000 ALTER TABLE `student_feedback` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -160,4 +188,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-16  0:19:23
+-- Dump completed on 2022-06-22 23:58:11

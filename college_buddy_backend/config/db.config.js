@@ -7,7 +7,7 @@ const dbCon = mysql.createConnection({
   host: process.env.HOST,
   user: process.env.USER,
   password: process.env.PASSWORD,
-  database: "collegbuddy",
+  database: "collegebuddy",
 });
 
 dbCon.connect(function (err) {

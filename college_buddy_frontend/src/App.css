@@ -17,3 +17,8 @@
   font-size: 35px;
   color: #36A0FF;
 }
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}

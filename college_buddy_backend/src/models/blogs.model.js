@@ -2,7 +2,10 @@ const dbCon = require("../../config/db.config");
 
 var Blog = function (blog) {
   this.title = blog.title;
+  this.category = blog.category;
+  this.address = blog.address;
   this.create_date = blog.create_date;
+  this.img_src = blog.img_src;
   this.blog_data = blog.blog_data;
 };
 
