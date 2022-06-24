@@ -18,8 +18,8 @@ function BlogItem(props) {
     <div>
       <div className="my-3 container">
         <div className="card">
-          <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ left: '82%', marginTop: '10px', zIndex: '1' }}>
-            {javaDate.toLocaleDateString("hi-IN", options)}
+          <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ left: '72%', marginTop: '10px', zIndex: '1' }}>
+            {javaDate.toLocaleDateString("en-IN", options)}
           </span>
           <div className="card__header">
             <img src={props.data.img_src} alt="card__image" className="card__image" width="600" />

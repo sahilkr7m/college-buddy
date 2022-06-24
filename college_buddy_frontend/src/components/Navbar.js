@@ -10,7 +10,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-sm navbar-custom navbar-expand-lg py-md-4" >
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">Fresher's Stop <AiFillStop/> </Link>
+                    <Link className="navbar-brand" to="/">Fresher's Stop <AiFillStop /> </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -23,13 +23,13 @@ function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="/pg">Hostel</Link>
                             </li>
                             <li className="nav-item nav-link px-3">
-                                <Link className="nav-link active" aria-current="page" to="/about">About</Link>
-                            </li>
-                            <li className="nav-item nav-link px-3">
                                 <Link className="nav-link active" aria-current="page" to="/hospital">Hospital</Link>
                             </li>
                             <li className="nav-item nav-link px-3">
                                 <Link className="nav-link active" aria-current="page" to="/blog">Blog section</Link>
+                            </li>
+                            <li className="nav-item nav-link px-3">
+                                <Link className="nav-link active" aria-current="page" to="/about">About</Link>
                             </li>
                             <li className="nav-item nav-link px-3">
                                 <Link className="nav-link active" aria-current="page" to="/contribute">Would like to Contribute?</Link>
