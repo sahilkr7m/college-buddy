@@ -10,6 +10,12 @@
     margin: 15px 0;
 }
 
+.borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://i.stack.imgur.com/sjbeu.png) 30 stretch;
+  }
+
 .no-gutter .project {
     margin: 0 !important;
     padding: 0 !important;
@@ -65,7 +71,6 @@ img {
     width: 100%;
     max-width: 100%;
     height: auto;
-    -webkit-backface-visibility: hidden;
 }
 
 .rounded {

@@ -27,7 +27,7 @@ function BlogItem(props) {
           <div className="card__body">
             <h5 className="card-title">{props.data.title}</h5>
             <span className="tag tag-blue">{props.data.category}</span>
-            <Link to={url} target="_blank" className="btn btn-sm btn-primary">more detail</Link>
+            <Link to={url} className="btn btn-sm btn-primary">more detail</Link>
           </div>
 
         </div>
