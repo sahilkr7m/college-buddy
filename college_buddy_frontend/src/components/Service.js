@@ -18,13 +18,15 @@ function Service(props) {
       });
   }, []);
 
+  console.log(service)
+
   return (
     <div className="container my-3">
       {service && (
         <div className="row">
           {service.map((element) => {
             return (
-              <div className="col-md-4" key={element.id}>
+              <div className="col-md-3" key={element.id}>
                 <ServiceItem data={element} category={props.category} />
               </div>
             );

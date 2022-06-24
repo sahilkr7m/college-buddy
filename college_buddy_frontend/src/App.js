@@ -1,4 +1,5 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import './App.css';
 import About from './components/About';
 import Blog from './components/Blog';
@@ -13,18 +14,18 @@ import ServiceDetail from './components/ServiceDetail';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App cirlce" >
       <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element = {<Home />} />
 
           {/* All PG's and hostels routes */}
-          <Route path="/pg" element = {<Service category="pg"/>} />
+          <Route path="/pg" element = {<Service key="pg" category="pg"/>} />
           <Route path="/pg/:id" element={<ServiceDetail category="pg"/>} />
 
           {/* All Hospitals routes */}
-          <Route path="/hospital" element = {<Service category="hospital"/>} />
+          <Route path="/hospital" element = {<Service key="hospital" category="hospital"/>} />
           <Route path="/hospital/:id" element={<ServiceDetail category="hospital"/>} />
 
           {/* All Blogs routes */}

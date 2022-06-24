@@ -16,13 +16,7 @@ function BlogDetail() {
     fetchData();
   }, []);
 
-  // const handleClick = () => {
-  //       async function deletePost() {
-  //           await fetch(`http://localhost:3000/api/blog/${id}`, { method: 'DELETE' });
-  //       }
-
-  //       deletePost();
-  // }
+  // console.log(detail);
   return (
     <div>
       {detail && (

@@ -27,7 +27,7 @@ function ServiceDetail(props) {
               <div className="col-md-5">
                 <div className="project-info-box mt-0">
                   <h5>{detail.name}</h5>
-                  <p className="mb-0">The Details regarding the {detail.name} is provided below . The {detail.category} is accomodated with all the facilities.</p>
+                  <p className="mb-0">The Details regarding the {detail.name} is provided below.<br/> The {detail.category} is accomodated with all the facilities.</p>
                 </div>
 
                 <div className="project-info-box">
@@ -35,7 +35,7 @@ function ServiceDetail(props) {
                   <p><b>Category:</b> {detail.category}</p>
                   <p><b>Rating:</b> {detail.rating}</p>
 
-                  <p className="mb-0"><b>Rent:</b> 5000-7000</p>
+                 {detail.rent && <p className="mb-0"><b>Rent:</b> {detail.rent} </p>}
                   <p><b>More details:</b> <a href={detail.urls} target="_blank">Click here for more details</a></p>
                 </div>
 

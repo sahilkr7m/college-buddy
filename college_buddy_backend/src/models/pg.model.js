@@ -6,6 +6,7 @@ var Pg = function (pg) {
   this.phone = pg.phone;
   this.rent = pg.rent;
   this.image = pg.image;
+  this.rent = pg.rent;
 };
 
 // get all pgs
@@ -27,7 +28,7 @@ Pg.getAllPgs = (result) => {
 // get pg by id
 Pg.getPgById = (id, result) => {
   dbConn.query(
-    "SELECT id,name,address,category,rating,urls, CONCAT('http://localhost:3000/upload/',image) AS image, lat, lng FROM pg where id = ?",
+    "SELECT id,name,address,category,rating,urls, CONCAT('http://localhost:3000/upload/',image) AS image, lat, lng, rent FROM pg where id = ?",
     id,
     (err, res) => {
       if (err) {

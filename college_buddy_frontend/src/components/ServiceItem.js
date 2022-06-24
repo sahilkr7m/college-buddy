@@ -13,7 +13,7 @@ function ServiceItem(props) {
       <br />
       <br />
       <div className="card" style={{ width: "18rem" }}>
-        <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ left: '90%',marginTop: '10px', zIndex: '1' }}>
+        <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ left: '90%',marginTop: '10px', zIndex: '1' }}>
           {props.data.rating}
         </span>
         <img src={imgurl} className="card-img-top cardImg card__image" alt="" />
