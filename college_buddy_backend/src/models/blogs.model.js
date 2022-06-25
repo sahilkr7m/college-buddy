@@ -7,6 +7,7 @@ var Blog = function (blog) {
   this.create_date = blog.create_date;
   this.img_src = blog.img_src;
   this.blog_data = blog.blog_data;
+  this.budget = blog.budget;
 };
 
 

@@ -37,8 +37,8 @@ function BlogDetail() {
                   <p><b>My thought:</b> {detail.blog_data}</p>
                   {/* <p><b>Rating:</b> {detail.rating}</p> */}
 
-                  <p className="mb-0"><b>Budget:</b> 5000-7000</p>
-                  <p><b>More details:</b> <a href={detail.urls}>Click here for more details</a></p>
+                 {detail.budget && <p className="mb-0"><b>Budget:</b> {detail.budget} </p>}
+                  {/* <p><b>More details:</b> <a href={detail.urls}>Click here for more details</a></p> */}
                 </div>
 
 
