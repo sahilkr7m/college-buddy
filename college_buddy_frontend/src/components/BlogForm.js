@@ -30,6 +30,13 @@ function BlogForm() {
                     <div class="form-group">
                         <span class="col-md-1 offset-md-2 text-xs-center"><i class="fa fa-user bigicon"></i></span>
                         <div class="col-md-8">
+                            <input name="budget" type="text" placeholder="budget if any" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="col-md-1 offset-md-2 text-xs-center"><i class="fa fa-user bigicon"></i></span>
+                        <div class="col-md-8">
                             <input id="lname" name="create_date" type="date" placeholder="Date" class="form-control" />
                         </div>
                     </div>

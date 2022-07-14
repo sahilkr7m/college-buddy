@@ -49,7 +49,7 @@ function Home() {
               </div>
             </div>
           </article>
-          <article class="postcard dark blue">
+          {/* <article class="postcard dark blue">
             <div class="postcard__text">
               <h1 class="postcard__title blue">
                 {" "}
@@ -68,7 +68,7 @@ function Home() {
                 satisfaction of student life
               </div>
             </div>
-          </article>
+          </article> */}
         </div>
 
         {/* <div className='container'>
